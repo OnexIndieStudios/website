@@ -14,3 +14,23 @@ h1{font-family: 'Lora', serif; font-size: 40px;}
 body{background-color: white;}
 #textwil{font-family: 'Lora', serif; color: black; display: inline; background-color: white; border: 1.5px solid black; border-radius: 5px; font-weight: bold; font-size: 30px;}
 #textwil:hover{background-color: black; border: 1.5px solid white; border-radius: 5px; color: white; font-weight: bold;}
+
+@keyframes contact {
+  from {font-family: 'Lora', serif; color: black; display: inline; background-color: white; border: 1.5px solid black; border-radius: 5px; font-weight: bold;}
+  to {background-color: black; border: 1.5px solid black; border-radius: 5px; color: white; font-weight: bold;}
+}
+
+#textwi:hover{
+  animation-name: contact;
+  animation-duration: 0.5s;
+}
+
+@keyframes click {
+  from {font-family: 'Lora', serif; color: black; display: inline; background-color: white; border: 1.5px solid black; border-radius: 5px; font-weight: bold; font-size: 30px;}
+  to {background-color: black; border: 1.5px solid white; border-radius: 5px; color: white; font-weight: bold;}
+}
+
+#textwil:hover{
+  animation-name: click;
+  animation-duration: 0.5s;
+}
