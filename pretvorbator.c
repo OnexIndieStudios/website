@@ -55,6 +55,10 @@ switch(d) {
       b = 1000 * 1000 * 1000;
 
     break;
+
+   default:
+    printf("\nTa opcija ne obstaja.\n");
+   break;
 }
 
 
