@@ -3,19 +3,35 @@
 #include <stdbool.h>
 #include <string.h>
 
+
 int main(){
 
-int a;
+int b = 0;
+char d; /* char 1 */
+char e; /* char 2 */
 char ime[30];
 
 printf("Vpisi svoje ime: ");
 scanf("%s", &ime); /* Vpiši ime */
 
-a = strlen(ime) - 1;
+int a = strlen(ime) - 1;
 
-printf("\n%d\n", a); /* odgovor */
-printf("\n");
-system("pause");
+while(1 == 1){
+   if(a != b){
+    d = ime[b];
+    e = ime[a];
+
+    ime[b] = e;
+    ime[a] = d;
+
+    a--;
+    b++;
+
+   } else {
+     printf("\n %s \n", ime);
+   }
+}
+
 return 0;
 }
 
