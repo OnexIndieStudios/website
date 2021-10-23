@@ -15,10 +15,10 @@ scanf("%s", &ime); /* Vpisi ime */
 /* variable */
 int a = 0; /* stevilka, ki se povecuje */
 int b = strlen(ime) - 1; /* stevilka, ki se zmanjsuje */
-int c = strlen(ime); /* ko ta stevilka doseze polovico dol≈æine imena se program zaustavi (za soda stevila) */
+int c = strlen(ime); /* ko ta stevilka doseze polovico dolûine imena se program zaustavi (za soda stevila) */
 int d = c / 2; /* definicija polovice imena */
 
-/* preveri, ce je dol≈æina besede soda */
+/* preveri, ce je dolûina besede soda */
 if ( c%2 == 0 ){
 
 while(1 == 1){
@@ -65,7 +65,6 @@ sleep(10000);
 
 }
 
-return 0;
 }
 
 
