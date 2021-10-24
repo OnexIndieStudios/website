@@ -26,7 +26,19 @@ a {
   font-family: 'Noto Sans Mono', monospace;
 }
 
-div {margin: auto;}
+.if{border: 3px solid; width: 560px; height: 315px;}
+
+@media only screen and (max-width: 600px) {
+  .if{
+    width: 400px; height: 255px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .if{
+    width: 300px; height: 155px;
+  }
+}
 
 </style>
 
@@ -35,21 +47,21 @@ div {margin: auto;}
 <div style="text-align: center;">
 <img src="bruh.png" class="center">
 
-<h1>Amar Omerovič</h1>
+<h1>- Amar Omerovič -</h1>
 
 <br>
 
 <h1>Od najmanjšega do največjega</h1>
-<p>Ta program sortira 10 števil od najmanjšega do največjega.</p> 
+<p>Ta program sortira 10 števil od najmanjšega do največjega z algoritmom bubble sort.</p> 
 
 <br>
 
 <a href="solve.c"><img src="df.png" width="50px" height="50px"></a>&nbsp;&nbsp;&nbsp;<a href="solve.exe"><img src="df.png" width="50px" height="50px"></a>
 <p>koda&nbsp;&nbsp;&nbsp;exe</p>
 
-<div style="width: 545px; height: 300px; border: 3px solid;">
-<iframe width="545" height="300" src="https://www.youtube-nocookie.com/embed/xli_FI7CuzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<iframe class="if" src="https://www.youtube-nocookie.com/embed/xli_FI7CuzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
 
 <a href="index.html">pojdi nazaj</a>
 
