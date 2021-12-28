@@ -2,8 +2,12 @@
 <rss version="2.0">
 
 <channel>
-
-  <item>
+<title>Amar Omerović</title>
+<link>https://www.amidev.pro/</link>
+<description>To je moj rss feed!</description>
+<category>Programiranje</category> 
+  
+<item>
     <title>RSS feed 2</title>
     <link>https://www.amidev.pro/</link>
 	<description>To je sam test 2.</description>
