@@ -2,12 +2,12 @@
 <rss version="2.0">
 
 <channel>
-<title>Amar Omerović</title>
-<link>https://www.amidev.pro/</link>
-<description>To je moj rss feed!</description>
-<category>Programiranje</category> 
-  
-<item>
+
+ <title>W3Schools Home Page</title>
+  <link>https://www.w3schools.com</link>
+  <description>Free web building tutorials</description>	
+	
+  <item>
     <title>RSS feed 2</title>
     <link>https://www.amidev.pro/</link>
 	<description>To je sam test 2.</description>
@@ -17,13 +17,19 @@
     <title>RSS feed 3</title>
     <link>https://www.amidev.pro/</link>
 	<description>To je sam test 3.</description>
-  </item>	
+</item>	
 
 <item>
     <title>RSS feed 4</title>
     <link>https://www.amidev.pro/</link>
 	<description>To je sam test 4.</description>
-  </item>	
+</item>	
+
+<item>
+    <title>RSS feed 5</title>
+    <link>https://www.amidev.pro/</link>
+	<description>To je sam test 5.</description>
+</item>		
 	
 </channel>
 
