@@ -9,6 +9,18 @@
 	<description>To je sam test 2.</description>
   </item>
 
+<item>
+    <title>RSS feed 3</title>
+    <link>https://www.amidev.pro/</link>
+	<description>To je sam test 3.</description>
+  </item>	
+
+<item>
+    <title>RSS feed 4</title>
+    <link>https://www.amidev.pro/</link>
+	<description>To je sam test 4.</description>
+  </item>	
+	
 </channel>
 
 </rss> 
