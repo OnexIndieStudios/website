@@ -11,15 +11,13 @@
     <link>https://www.amidev.pro/</link>
 	<description>To je sam test.</description>
   </item>
-  
-  
-  <item>
-    <title>test 2</title>
-    <link>https://www.amidev.pro/</link>
-    <description>Še en test.</description>
-  </item>
-  
 
+<item>
+    <title>RSS feed 2</title>
+    <link>https://www.amidev.pro/</link>
+	<description>To je tut sam test.</description>
+  </item>	
+	
 </channel>
 
 </rss> 
