@@ -1,0 +1,16 @@
+<xml version="1.0" encoding="utf-8">
+<rss version="2.0">
+
+<channel>
+   <title>Amarjev blog -- amidev.pro</title>
+   <description>To je rss kanal za moj blog.</description>
+   <link>https://www.amidev.pro/</link>
+   
+   <item>
+     <title>Zdravo!</title>
+     <description>Testiranje rss-a.</description>
+	
+   </item>
+</channel>
+</rss>
+</xml>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shizuru&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<style>
+body{margin: 0;}
+
+.center{text-align: center;}
+
+.pic{width: 300px; height: 300px; border-style: solid; border-width: 5px; border-color: black; border-radius: 300px; margin: auto; margin-top: 25px; background-image: url(slikca.jpg); background-repeat: no-repeat; background-position: center center; background-size: 120% 150%;}
+
+.name{font-family: 'Dancing Script', cursive; font-size: 40px;}
+
+.crta{border-style: solid; border-width: 2px; border-color: black;}
+  
+.rss{border-radius: 10px; position: absolute; top: 0px; right: 0px; width: 64px; height: 64px; margin: 15px;} 
+ 
+.twtr{border-radius: 10px; position: absolute; top: 0px; right: 79px; width: 64px; height: 64px; margin: 15px;}  
+ 
+.yt{border-radius: 10px; position: absolute; top: 0px; right: 158px; width: 64px; height: 64px; margin: 15px;}  
+
+.links:hover{opacity: 0.5; margin-top: 10px;}
+
+fieldset{font-family: 'Roboto', sans-serif; font-size: 30px; margin: 5%; margin-top: 15px; border-style: solid; border-width: 3px; border-color: black;}
+legend{margin: auto;}
+li{margin-top: 10px;}
+
+@media only screen and (max-width: 780px) {
+  
+.rss{top: 0px; right: 0px;} 
+ 
+.twtr{top: 79px; right: 0px;}  
+ 
+.yt{top: 158px; right: 0px;}  
+
+} 
+
+@media only screen and (max-width: 525px) {
+  
+.pic{margin-top: 110px;}
+
+.rss{top: 0px; right: 0px;} 
+ 
+.twtr{top: 0px; right: 79px;}  
+ 
+.yt{top: 0px; right: 158px;}  
+  
+} 
+
+@media only screen and (max-width: 335px) {
+  
+.pic{width: 280px; height: 280px; border-radius: 280px;}
+
+} 
+
+</style>
+<body>
+ <div class="center">
+
+ <div class="pic"></div>
+
+ <h1 class="name">Amar Omerovič</h1>
+
+ <a href="https://www.google.com/"><img src="rss-icon.png" class="rss links"></a>
+
+ <a href="https://twitter.com/amaromerovich"><img src="twitter-icon.png" class="twtr links"></a>
+
+ <a href="https://www.youtube.com/channel/UCzV7BA8qK9dZCt4IAp3p60A"><img src="yt.png" class="yt links"></a>  
+ 
+ <fieldset>
+    <legend><span style="margin: 10px;">Moje delo</span></legend>
+
+	<ul style="list-style-position: inside; list-style-type: none; margin: 0; padding: 0;">
+    <li>Projekt</li>
+    <li>Raziskovalna 1</li>
+    <li>Raziskovalna 2</li>
+    </ul> 
+
+ </fieldset>
+ 
+ </div>
+</body>
+</html>
